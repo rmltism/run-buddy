@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
 <body>
-    <!-- navigation -->
+    <!-- NAVIGATION START -->
         <header>
             <h1>
                 <a href="/">RUN BUDDY</a>
             </h1>
                 <nav>
-                    <!-- Unordered list element -->
+                    <!-- UNORDERED LIST ELEMENT START -->
                     <ul>
-                        <!-- List item element -->
+                        <!-- LIST ELEMENT START-->
                         <li>
-                            <!-- Anchor Element -->
+                            <!-- ANCHOR ELEMENT START -->
                             <a href="#what-we-do">What We do</a>
                         </li>
                         <li>
@@ -28,18 +30,22 @@
                         </li>
                         <li>
                             <a href="#reach-out">Reach Out</a>
+                            <!-- ANCHOR ELEMENT FINISH -->
                         </li>
+                        <!-- LIST ELEMENT FINISH-->
                     </ul>
-
+                    <!-- UNORDERD LIST ELEMENT FINISH -->
                  </nav>
         </header>
+    <!-- NAVIGATION FINISH -->
 
-    <!-- Hero/Jumbotron -->
+    <!-- HERO/JUMBOTRON START -->
         <section class="hero">
             <div class="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-            <!-- Add form element -->
+
+                <!-- FORM ELEMENT START -->
                 <form>
                     <label for="name">Enter full name:</label>
                     <input type="text" placeholder="Your name" name="name" id="name" class="form-input"/>
@@ -47,7 +53,8 @@
                     <input type="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
                     <label for="phone">Enter a telephone number</label>
                     <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
-                    <!-- Radio Button For Trainer Confirmation-->
+
+                    <!-- RADIO BUTTON FOR TRAINER CONFIRMATION START -->
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes"/>
@@ -55,23 +62,31 @@
                         <input type="radio" name="trainer-confirm" id="trainer-no"/>
                         <label for="trainer-no">No</label>
                     </p>
-                    <!-- Check Box For Age Confirmation -->
+                    <!-- RADIO BUTTON FINISH -->
+
+                    <!-- CHECK BOX FOR AGE CONFIRMATION START -->
                     <p>
                         <label for="checkbox">
                         I acknowledge that I am at least 18 years of age.
                         </label>
                         <input type="checkbox" name="age-confirm" id="checkbox"/>
                     </p>
-                    <!-- Submit Button-->
+                    <!-- CHECK BOX FOR AGE CONFIRMATION FINISH -->
+
+                    <!-- SUBMIT BUTTON START -->
                     <button type="submit">
                         Get Running!
                     </button>
+                    <!-- SUBMIT BUTTON FINISH -->
+
                 </form>
+                <!-- FORM ELEMENT FINISH -->
+
             </div>
         </section>
-        <!-- End Hero/Jumbotron -->
+        <!-- HERO/JUMBOTRON SECTION FINISH -->
 
-    <!-- "what we do" section -->
+    <!-- "WHAT WE DO" SECTION START -->
         <section id="what-we-do" class="intro">
              <h2 class="section-title primary-border">What We Do</h2>
              <p>
@@ -83,13 +98,14 @@
                  sustainable Intelligentsia unami deep v craft
              </p>
         </section>
+    <!-- "WHAT WE DO" SECTION FINISH -->
     
-    <!-- "what you do" section -->
+    <!-- "WHAT YOU DO" SECTION START -->
         <section id="what-you-do" class="steps">
             <h2 class="section-title primary-border">What You Do</h2>
 
             <div>
-                <img src="./assets/images/step-1.svg" alt=""/>
+                <img src="assets/images/step-1.svg" alt=""/>
                 <h3>Step 1: <span> Fill Out the Form Above.</span></h3>
                 <p>You're already here, so why not?</p>
             </div>
@@ -112,12 +128,13 @@
                 <p>Bi-weekly checkins with your trainer will keep you focused</p>
             </div>
         </section>
+    <!-- "WHAT YOU DO" SECTION FINISH -->
     
-    <!-- "meet the trainers" section -->
+    <!-- "MEET THE TRAINERS" SECTION START -->
         <section id="your-trainers" class="trainers">
             <h2 class ="section-title primary-border">Meet The Trainers</h2>
 
-            <!-- First Trainer Bio -->
+            <!-- FIRST TRAINER BIO START -->
             <article class="trainer">
                 <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
                 <div class="trainer-bio text-left">
@@ -130,8 +147,9 @@
                     </p>
                 </div>
             </article>
+            <!-- FIRST TRAINER BIO FINISH -->
 
-            <!-- Second Trainer Bio-->
+            <!-- SECOND TRAINER BIO START -->
             <article class="trainer">
                 <div class="trainer-bio text-right">
                     <h3>Joanna Gill</h3>
@@ -144,59 +162,78 @@
                 </div>
                 <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
             </article>
-        </section>
+            <!-- SECOND TRAINER BIO FINISH -->
 
-        <!-- Third Trainer Bio -->
-        <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
-            <div class="trainer-bio text-left">
-                <h3>Harry "The Headband" Smith</h3>
-                <h4>Strength</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi amet provident 
-                    incidunt esse quae nesciunt atque sed? Voluptatem saepe officiis voluptates voluptate 
-                    ex illo modi, quia soluta placeat qui dolore
-                </p>
-            </div>
-        </article>
+            <!-- THIRD TRAINER BIO START -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
+                <div class="trainer-bio text-left">
+                    <h3>Harry "The Headband" Smith</h3>
+                    <h4>Strength</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi amet provident 
+                        incidunt esse quae nesciunt atque sed? Voluptatem saepe officiis voluptates voluptate 
+                        ex illo modi, quia soluta placeat qui dolore
+                    </p>
+                </div>
+            </article>
+            <!-- THIRD TRAINER BIO FINISH -->
+
+        </section>  
+    <!-- "MEET THE TRAINERS" SECTION FINISH -->
     
-    <!-- "reach out section" -->
-        <section>
-            <h2>Reach Out</h2>
+    <!-- "REACH OUT" SECTION START -->
+        <section id="reach-out" class="contact">
+            <h2 class="section-title secondary-border">Reach Out</h2>
+            <!-- CONTACT INFO CONTAINER START-->
             <div class="contact-info">
+
+                <!-- iFRAME GOOGLE MAP CONTAINER START -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus"
-                    width="600"
-                    height="450"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy">
+                   style="border:0;" 
+                   allowfullscreen=""
+                   loading="lazy">
                 </iframe>
+                <!-- iFRAME GOOGLE MAP CONTAINER FINISH -->
+                
+                <!-- RUN BUDDY INFO CONTAINER START-->
+                <div>
+                    <h3>Run Buddy</h3>
+                    <p>
+                        Any questions or concerns before signing up?
+                    <br />
+                        Let us know and we'll be happy to talk to you!
+                    </p>
+                    <address>
+                        55 Main Street <br />
+                        Some Town, Ca <br />
+                        12345 <br />
+                        P: 555.RUN.BUDZ (555.786.2839) <br />
+                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                    </address>
+                </div>
+                <!-- RUN BUDDY INFO CONATAINER FINISH-->
+
             </div>
-            <div>
-                <h3>Run Buddy</h3>
-                <p>
-                    Any questions or concerns before signing up?
-                <br />
-                    Let us know and we'll be happy to talk to you!
-                </p>
-                <address>
-                    55 Main Street <br />
-                    Some Town, Ca <br />
-                    12345 <br />
-                    P: 555.RUN.BUDZ (555.786.2839) <br />
-                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-                </address>
-            </div>
+            <!-- CONTACT INFO CONTAINER FINISH -->
+
         </section>
+    <!-- "REACH OUT" SECTION FINISH -->
         
-    <!-- footer -->
+    <!-- FOOOTER START -->
         <footer>
             <h2>❤️ Made with love by Run Buddy</h2>
+
+            <!-- PRIVACY POLICY CONTAINER FINISH -->
             <div>
                 <a href="#">Read Our Privacy Policy</a><br />
                 &copy; 2019 Run Buddy, Inc.
             </div>
+            <!-- PRIVACY POLICY CONTAINER FINISH -->
+
         </footer>
+    <!-- FOOTER FINISH -->
+
     
 </body>
 </html>
