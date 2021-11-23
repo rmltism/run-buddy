@@ -12,4 +12,3 @@ https://rmltism.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by rmltism
-
