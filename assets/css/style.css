@@ -1,4 +1,4 @@
-/* NAVIGATION STYLES START*/
+/* PAGE STYLING START*/
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,9 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
+/* PAGE STYLING END*/
 
+/* HEADER/NAVIGATION STYLES START*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -33,14 +35,18 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
@@ -69,7 +75,7 @@ footer a {
 section {
     padding: 60px;
 }
-/* NAVIGATION STYLES FINISH */
+/* HEADER/NAVIGATION STYLES END */
 
 /* HERO STYLE START */
 .hero {
@@ -137,7 +143,7 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
-/* WHAT WE DO SECTION STYLES FINISH*/
+/* WHAT WE DO SECTION STYLES END*/
 
 /* WHAT YOU DO STYLES START */
 .steps {
@@ -186,7 +192,7 @@ section {
     border-color: #39a6b2;
 }
 
-/* WHAT YOU DO STYLES FINISH */
+/* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS STYLES START*/  
 .trainers {
@@ -235,7 +241,7 @@ section {
 .text-right {
     text-align: right;
 }
-  /* MEET THE TRAINERS STYLES FINISH */
+  /* MEET THE TRAINERS STYLES END */
 
   /* REACH OUT STYLES START */
 .contact {
